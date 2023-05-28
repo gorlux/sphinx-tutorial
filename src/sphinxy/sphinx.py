@@ -58,16 +58,17 @@ class Sphinx:
         """Evaluates the given answer to the riddle.
 
         Args:
-            answer (str): _description_
-            return_hint (bool, optional): _description_. Defaults to False.
+            answer (str): The given answer to the riddle.
+            return_hint (bool, optional): Controls whether a hint for the riddle should
+                be returned. Defaults to False.
 
         Raises:
-            IncorrectAnswer: _description_
+            IncorrectAnswer: Exception for incorrect answer.
 
         Returns:
-            str: _description_
+            str: The result of the evaluation of the answer.
         """
- 
+        
         if self._riddle.check_answer(answer):
             return "Your answer was correct. You may pass."
         elif return_hint:
