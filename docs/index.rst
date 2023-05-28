@@ -13,14 +13,6 @@ Welcome to Sphinxy's documentation!
    modules
 
 
-The Egyptian Sphinx
--------------------
-
-.. image:: _static/sphinx.png
-
-
-
-
 Indices and tables
 ==================
 
@@ -28,3 +20,8 @@ Indices and tables
 * :ref:`modindex`
 * :ref:`search`
 
+
+The Egyptian Sphinx
+-------------------
+
+.. image:: _static/sphinx.png
